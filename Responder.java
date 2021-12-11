@@ -78,7 +78,6 @@ public class Responder
             int count = 0;
             boolean append = false;
             while(line != null) {
-                System.out.println(count);
                 if(line.trim().isEmpty()) {
                     String[] keyArray = keys.split(", ");
                     for (int i = 0; i < keyArray.length; i++) {
